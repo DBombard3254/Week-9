@@ -1,0 +1,6 @@
+#!/bin/bash
+ifconfig
+route -n
+ping 10.23.2.1
+traceroute youtube.com
+host youtube.com
